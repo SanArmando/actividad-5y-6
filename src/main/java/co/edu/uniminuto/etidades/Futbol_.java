@@ -1,17 +1,14 @@
 
-package co.edu.uniminuti.etidades;
+package co.edu.uniminuto.etidades;
 
-/**
- *
- * @author USR-79M2
- */
+
 public class Futbol_ {
     private int id;
-    private string nombre;
+    private String nombre;
     private short edad;
     private short estatus;
 
-    public Futbol_(string nombre, short edad, short estatus) {
+    public Futbol_(String nombre, short edad, short estatus) {
         
         this.nombre = nombre;
         this.edad = edad;
@@ -29,11 +26,11 @@ public class Futbol_ {
         this.id = id;
     }
 
-    public string getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(string nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 

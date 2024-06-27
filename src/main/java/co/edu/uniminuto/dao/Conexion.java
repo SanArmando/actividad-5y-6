@@ -29,7 +29,7 @@ public class Conexion {
     
     private Connection conectar (){
         try {
-            class.forName("com.mysql.cj.jdbc.Driver");
+            //class.forName("com.mysql.cj.jdbc.Driver");
             this.conex = DriverManager.getConnection(this.cadena,this.usuario,this.cadena);
             JOptionPane.showMessageDialog(null, "Hay conexion");
         } catch (Exception e) {
@@ -39,8 +39,8 @@ public class Conexion {
         return this.conex;
     }
     
-    public connection getconectar(){
-        return this.conectar();
+    public Connection getconectar(){
+     return this.conectar();
     }
     
 }
