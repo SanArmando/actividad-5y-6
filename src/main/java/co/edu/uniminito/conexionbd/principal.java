@@ -12,8 +12,12 @@ public class principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        conexion conexion = new conexion ();
-        conexion.getconectar();
+        /*conexion conexion = new conexion ();
+        //conexion.getconectar();*/
+        // los datos se piden al cliente
+        short edad=0;
+        short s
+
     }
     
 }
